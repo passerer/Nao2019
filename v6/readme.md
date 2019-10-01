@@ -64,9 +64,9 @@ atom-sdk
 ###### 实例1： 编译动态链接库文件（.so）
 进入 tutorials-master/2_local-module-creation/mymodule-example 文件夹内,打开终端:
 
-`qibuild init`
-`qibuild configure -c atom-sdk`
-`qibuild make -c atom-sdk`
+`qibuild init` 
+`qibuild configure -c atom-sdk` 
+`qibuild make -c atom-sdk` 
 
 然后可以看到 mymodule-example 文件夹内多了一个 build-linux-sdk 文件夹。
 
@@ -84,8 +84,8 @@ atom-sdk
 
 更改autoload.ini文件。该文件指定了开机自启项:
 
-`cd ~/nao/naoqi/preferences/`
-`vi autoload.ini`
+`cd ~/nao/naoqi/preferences/` 
+`vi autoload.ini` 
 
 在[user]下方添加：
 
@@ -97,8 +97,9 @@ atom-sdk
 ###### 实例2：编译PC端的C++代码（bin）
 在PC端进入 tutorials-master/2_local-module-creation/connect-to module 文件夹内
 
-`qibuild configure -c linux-sdk`
-`qibuild make -c linux-sdk`
+`qibuild init` 
+`qibuild configure -c linux-sdk` 
+`qibuild make -c linux-sdk` 
 
 然后可以看到 mymodule-example 文件夹内多了一个 build-linux-sdk 文件夹。
 
