@@ -40,11 +40,13 @@ sudo make altinstall
 ###### 7）配置工具链（toolchain）
 
 `qitoolchain create linux-sdk path_to_SDK/toolchain.xml`
+
 `qibuild add-config linux-sdk -t linux-sdk`
 
 linux-sdk 为C++_SDK的工具链名称，用于编译运行于PC端的 C++ 代码（remote）
 
 ` $ qitoolchain create atom-sdk path_to_cross-toolchain/toolchain.xml`
+
  `$ qibuild add-config atom-sdk -t atom-sdk`
  
 atom-sdk 为C++_ctc的工具链名称，用于编译放在NAO终端的 C++ 代码（local）
