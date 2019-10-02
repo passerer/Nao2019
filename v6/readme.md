@@ -142,4 +142,22 @@ atom-sdk
 
 保存更改，重启NAO。当NAO开机时，会自动执行myproject
 
+##### 实例2 获取NAO的图像（remote）
+> @author 陈超
 
+###### 安装opencv
+
+安装依赖库
+
+`$ sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev`
+
+登录opencv官网 https://opencv.org/releases/  下载3.1版本并解压
+进入解压文件
+
+`mkdir build`
+`cd build`
+`cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..`
+
+编译
+`sudo make -j4 `
+`sudo make install`
