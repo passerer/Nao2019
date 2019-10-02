@@ -1,12 +1,12 @@
 ## NAO V6 C++ SDK Installation Guide and Examples
 
-> @author 汤远航
+
 
 示例代码来源 https://github.com/robocupmipt/tutorials 请先下载好
 环境 **Ubuntu 16.04**
 
 ##### 安装与配置
-
+> @author 汤远航
 ###### 1） 安装依赖库
 ` sudo apt-get install build-essential checkinstall`
 ` sudo apt-get install gcc-multilib libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libc6-i386 libbz2-dev `
@@ -34,7 +34,7 @@ sudo make altinstall
 谷歌云盘下载:
 [C++ SDK](https://drive.google.com/open?id=1vSsmdZ-FWL_bBMNC06_iaHsDi77jvbwS)
 [cross-toolchain](https://drive.google.com/open?id=162PeZSlJ2_Skj8nzoH5qBYcyolB-7E3t)
-或登录NAO官网下载v6对应版本（2.8）
+NAO官网下载v6对应版本ctc（2.8）似乎有问题
 下载完成后解压
 
 ###### 7）配置工具链（toolchain）
@@ -65,8 +65,8 @@ atom-sdk
 `qitoolchain remove --force toolchain-name`
 
 ##### 实例 让NAO说话
-
-###### 实例1： 编译动态链接库文件（.so）
+> @author 汤远航
+###### 1： 编译动态链接库文件（.so）
 进入 tutorials-master/2_local-module-creation/mymodule-example 文件夹内,打开终端:
 
 `qibuild init` 
@@ -99,7 +99,7 @@ atom-sdk
 保存更改，重启NAO
 至此,NAO有了我们自己写的库，可以随时通过代码调用它
 
-###### 实例2：编译PC端的C++代码（bin）
+###### 2：编译PC端的C++代码（bin）
 在PC端进入 tutorials-master/2_local-module-creation/connect-to module 文件夹内
 
 `qibuild init` 
@@ -116,7 +116,7 @@ atom-sdk
 
 此时NAO应该能发出声音.
 
-######  实例3：编译nao端的C++代码（bin）
+######  3：编译nao端的C++代码（bin）
 
 在PC端进入 tutorials-master/2_local-module-creation/connect-to module 文件夹内
 
@@ -141,3 +141,5 @@ atom-sdk
 `path_to_project/myproject`
 
 保存更改，重启NAO。当NAO开机时，会自动执行myproject
+
+
