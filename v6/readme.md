@@ -89,7 +89,7 @@ atom-sdk
 
 在NAO上更改autoload.ini文件。该文件指定了开机自启项:
 
-`cd ~/nao/naoqi/preferences/` 
+`cd ~/naoqi/preferences/` 
 `vi autoload.ini` 
 
 在[user]下方添加：
