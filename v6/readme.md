@@ -87,7 +87,7 @@ atom-sdk
 
 `scp libmymodule.so nao@<nao_ip>:~/naoqi/lib`
 
-更改autoload.ini文件。该文件指定了开机自启项:
+在NAO上更改autoload.ini文件。该文件指定了开机自启项:
 
 `cd ~/nao/naoqi/preferences/` 
 `vi autoload.ini` 
