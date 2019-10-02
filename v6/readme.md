@@ -9,7 +9,7 @@
 
 ###### 1） 安装依赖库
 ` sudo apt-get install build-essential checkinstall`
-` sudo apt-get install build-essential checkinstallsudo apt-get install gcc-multilib libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libc6-i386 libbz2-dev `
+` sudo apt-get install gcc-multilib libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libc6-i386 libbz2-dev `
 
 ###### 2） 安装 QTcreator + CMake
 `sudo apt-get install gcc cmake qtcreator`
