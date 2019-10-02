@@ -85,7 +85,7 @@ atom-sdk
 
 复制文件:
 
-`scp libmymodule.so nao@<nao_ip>:~/nao/naoqi/lib`
+`scp libmymodule.so nao@<nao_ip>:~/naoqi/lib`
 
 更改autoload.ini文件。该文件指定了开机自启项:
 
