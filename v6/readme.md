@@ -59,6 +59,11 @@ atom-sdk 为C++_ctc的工具链名称，用于编译放在NAO终端的 C++ 代�
 linux-sdk
 atom-sdk
 ```
+
+> 若想删除工具链 可用命令
+
+`qitoolchain remove --force toolchain-name`
+
 ##### 实例 让NAO说话
 
 ###### 实例1： 编译动态链接库文件（.so）
